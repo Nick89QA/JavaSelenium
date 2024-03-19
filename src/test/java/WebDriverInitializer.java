@@ -8,7 +8,7 @@ public class WebDriverInitializer {
 
     public static WebDriver getDriver() {
         if (driver == null) {
-            WebDriverManager.chromedriver().setup();
+            WebDriverManager.chromedriver().clearCache();
             driver = new ChromeDriver();
         }
         return driver;
