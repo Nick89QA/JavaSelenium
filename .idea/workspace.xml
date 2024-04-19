@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3805da2-cf06-450b-8e22-699651a1f14e" name="Changes" comment="add gitignore">
+    <list default="true" id="e3805da2-cf06-450b-8e22-699651a1f14e" name="Changes" comment="fix bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriverInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +56,34 @@
       <command value="mvn clean:clean" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="MyTest.myTestJava" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MyTest.myTestJava (1)">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaSeleniumMyPetProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaSeleniumMyPetProject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.myTestJava (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="myTestJava" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.myTestJava" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSeleniumMyPetProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="myTestJava" />
@@ -71,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyTest.myTestJava (1)" />
         <item itemvalue="TestNG.MyTest.myTestJava" />
       </list>
     </recent_temporary>
