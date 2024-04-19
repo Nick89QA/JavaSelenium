@@ -5,5 +5,6 @@ public class MyTest extends BaseTest {
     @Test
     public void myTestJava() {
         driver.get("https://google.com");
+        System.out.println("Title is " + driver.getTitle());
     }
 }
