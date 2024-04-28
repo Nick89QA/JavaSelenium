@@ -1,6 +1,7 @@
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import utils.WebDriverInitializer;
 
 
 public class BaseTest extends WebDriverInitializer {
